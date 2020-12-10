@@ -1,0 +1,118 @@
+h2,h3{
+	display: block;
+	text-align: center;
+	color: pink;
+}
+
+#logo{
+	display: inline-block;
+	width: 15%;
+	height: auto;
+}
+
+#login{
+	display: inline-block;
+	height: 5%;
+	width: 5%;
+	margin: 2%;
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 4%;
+	font-size: 35px;
+	font-family: fantasy;
+}
+
+nav{
+	background-color: black;
+}
+nav ul li a:hover{
+	color:#cd0675;
+}
+nav a{
+	color: white;
+}
+li{
+  display: inline-block;
+}
+.container-fluid header nav ul li a{
+    color: white!important;
+}
+.container-fluid header nav ul li a:hover{
+    color:#cd0675!important;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+
+/* .imagen-c{
+	width: 250px;
+	height: 250px;
+} */
+
+aside{
+	display: inline-block;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#nombre{
+	color: blue;
+	font-size: 25px;
+}
+.columna{
+	width: 33%;
+} 
+
+@media (max-width:800px){ /*Tamaño de una tablet*/
+#logo{
+	width: 25%;
+}
+.columna{
+		width: 50%;
+	}
+header,nav{
+		width: 100%;
+	}
+	h2{
+		font-size: 30%
+	}
+.fakeimg {
+       height: 850px;
+  }
+}
+
+@media(max-width: 600px){ /*Tamaño telefono*/
+	#logo{
+	width: 30%;
+}
+	.columna{
+		width: 97%;
+	}
+	nav{
+		display: none;
+	}
+	.sugerencias{
+		display: none;
+	}
+	.fakeimg {
+    height: 800px;
+  }
+  iframe{
+  	width: 280px;
+  	height: 307px;
+  }
+  .mapa{
+  	align-items: left;
+  }
+}
+
+  .fakeimg {
+    height: 500px;
+    background: #aaa;
+  }
